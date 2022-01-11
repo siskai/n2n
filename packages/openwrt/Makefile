@@ -14,7 +14,7 @@ PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 # These are defaults for compiling without any environmental overrides
 # (eg, the github action calculates the correct overrides for each build)
 PKG_SOURCE_URL:=https://github.com/ntop/n2n
-PKG_SOURCE_VERSION:=dev
+PKG_SOURCE_VERSION:=3.0-stable
 PKG_MIRROR_HASH:=skip
 
 # Apply overrides from the build environment
